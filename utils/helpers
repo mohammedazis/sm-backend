@@ -1,0 +1,10 @@
+// utils/helpers.js
+
+// Helper function to calculate subtotal
+const calculateSubtotal = (products) => {
+  return products.reduce((sum, product) => sum + (product.quantity * product.price), 0);
+};
+
+module.exports = {
+  calculateSubtotal,
+};
