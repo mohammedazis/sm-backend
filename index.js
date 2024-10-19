@@ -25,7 +25,7 @@ const app = express();
 const PORT = process.env.PORT || 3001; // Port from environment or default
 
 // MongoDB Connection URI from environment variables
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/stockManagement';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://azisvvm:azisvvm@cluster0.zbdana6.mongodb.net/stockManagement';
 
 // Connect to MongoDB
 mongoose.connect(MONGO_URI, {})
