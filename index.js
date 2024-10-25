@@ -36,7 +36,7 @@ mongoose.connect(MONGO_URI, {})
 app.use(bodyParser.json());
 
 app.use(cors({
-  origin: 'http://localhost:3000', // The address of your frontend
+  origin: 'https://front-end-sm.vercel.app/', // The address of your frontend
   credentials: true // Allow cookies to be sent along with requests
 }));
 
